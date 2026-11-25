@@ -1,0 +1,7 @@
+Total transaksi hari ini: 1250 dari 1300 permintaan.
+Catatan: dokumen ini hanya data uji sintetis.
+ref: 6372031502690000
+ref: 8102010707860000
+ref: 6104132112000000
+ref: 3273271602190000
+Catatan: dokumen ini hanya data uji sintetis.

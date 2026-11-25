@@ -1,0 +1,7 @@
+Catatan: dokumen ini hanya data uji sintetis.
+Kode pesanan ORD-20261125-0042 sudah dikirim.
+seri: 27149709400949291
+Alamat IP internal 10.0.0.12 tidak dipublikasikan.
+Server berjalan normal, waktu respons 120 ms.
+Alamat IP internal 10.0.0.12 tidak dipublikasikan.
+Alamat IP internal 10.0.0.12 tidak dipublikasikan.

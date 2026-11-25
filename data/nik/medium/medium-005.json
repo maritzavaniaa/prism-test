@@ -1,0 +1,19 @@
+{
+  "catatan": [
+    "Pengguna diminta memperbarui kata sandi tiap 90 hari.",
+    "Pengguna diminta memperbarui kata sandi tiap 90 hari.",
+    "Jumlah baris diproses: 48213, gagal: 0.",
+    "Server berjalan normal, waktu respons 120 ms.",
+    "Pengguna diminta memperbarui kata sandi tiap 90 hari.",
+    "Alamat IP internal 10.0.0.12 tidak dipublikasikan.",
+    "Total transaksi hari ini: 1250 dari 1300 permintaan."
+  ],
+  "pengguna": [
+    {
+      "nik": "3495686710760000"
+    },
+    {
+      "nik": "1403825605210000"
+    }
+  ]
+}

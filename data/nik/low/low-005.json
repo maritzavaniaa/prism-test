@@ -1,0 +1,16 @@
+{
+  "catatan": [
+    "Jumlah baris diproses: 48213, gagal: 0.",
+    "Jumlah baris diproses: 48213, gagal: 0.",
+    "Pengguna diminta memperbarui kata sandi tiap 90 hari.",
+    "Jumlah baris diproses: 48213, gagal: 0.",
+    "Catatan: dokumen ini hanya data uji sintetis.",
+    "Total transaksi hari ini: 1250 dari 1300 permintaan.",
+    "Cadangan basis data selesai pukul 02:15 dalam 38 detik."
+  ],
+  "pengguna": [
+    {
+      "ref": "8105050005770000"
+    }
+  ]
+}

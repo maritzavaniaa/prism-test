@@ -1,0 +1,3 @@
+Kode pesanan ORD-20261125-0042 sudah dikirim.
+Versi aplikasi 2.4.1 dirilis pada 2026-11-25.
+Pengguna diminta memperbarui kata sandi tiap 90 hari.

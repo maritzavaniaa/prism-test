@@ -1,0 +1,94 @@
+# Percobaan integrasi PRISM di repo lain (bukan workflow final, itu Langkah 12 di repo PRISM).
+#
+# PRISM diambil dari repo publik maritzavaniaa/PRISM (cabang main) ke folder .prism,
+# lalu dijalankan dengan PYTHONPATH. Tanpa pip dan tanpa token.
+#
+# Hasil yang DIHARAPKAN (jadi merah pada job pertama itu normal):
+#   pindai-semua  -> MERAH  (PRISM keluar dengan kode 1: ada temuan; harapan.json cocok)
+#   pindai-bersih -> HIJAU  (data/bersih tidak berisi NIK)
+#   kode-keluar   -> HIJAU  (memastikan kode keluar 0, 1, dan 2 muncul sesuai rancangan)
+name: prism-percobaan
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+env:
+  PYTHONPATH: .prism/src
+
+jobs:
+  pindai-semua:
+    name: pindai-semua (harapan MERAH)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/checkout@v7
+        with:
+          repository: maritzavaniaa/PRISM
+          ref: main
+          path: .prism
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Pindai seluruh repo (harapan exit 1)
+        run: |
+          set +e
+          time python -m prism scan . --exclude .prism | tee hasil.txt
+          kode=${PIPESTATUS[0]}
+          echo "exit code PRISM = $kode"
+          exit $kode
+      - name: Cocokkan dengan harapan.json
+        if: always()
+        run: python skrip/periksa_hasil.py hasil.txt harapan.json
+
+  pindai-bersih:
+    name: pindai-bersih (harapan HIJAU)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/checkout@v7
+        with:
+          repository: maritzavaniaa/PRISM
+          ref: main
+          path: .prism
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Pindai folder bersih (harapan exit 0)
+        run: |
+          set +e
+          python -m prism scan data/bersih | tee hasil.txt
+          kode=${PIPESTATUS[0]}
+          echo "exit code PRISM = $kode"
+          exit $kode
+      - name: Cocokkan dengan harapan.json
+        if: always()
+        run: python skrip/periksa_hasil.py hasil.txt harapan.json data/bersih
+
+  kode-keluar:
+    name: kode-keluar (harapan HIJAU)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/checkout@v7
+        with:
+          repository: maritzavaniaa/PRISM
+          ref: main
+          path: .prism
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Pastikan kode keluar 0, 1, dan 2
+        run: |
+          set +e
+          gagal=0
+          cek() {  # cek <kode diharapkan> <path>
+            python -m prism scan "$2" > /dev/null 2> /dev/null
+            kode=$?
+            if [ "$kode" -eq "$1" ]; then echo "OK    scan $2 -> $kode"; else echo "GAGAL scan $2 -> $kode (harapan $1)"; gagal=1; fi
+          }
+          cek 0 data/bersih
+          cek 1 data/nik/high
+          cek 2 data/tidak-ada
+          exit $gagal

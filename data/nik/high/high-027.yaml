@@ -1,0 +1,12 @@
+pengguna:
+  - ref: "1572061806310000"
+  - ref: "3175021001830000"
+  - ref: "7408096701200000"
+  - ref: "3513022309040000"
+catatan:
+  - Alamat IP internal 10.0.0.12 tidak dipublikasikan.
+  - Cadangan basis data selesai pukul 02:15 dalam 38 detik.
+  - Versi aplikasi 2.4.1 dirilis pada 2026-11-25.
+  - Kode pesanan ORD-20261125-0042 sudah dikirim.
+  - Catatan: dokumen ini hanya data uji sintetis.
+  - Jumlah baris diproses: 48213, gagal: 0.

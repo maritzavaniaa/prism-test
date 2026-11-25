@@ -1,0 +1,790 @@
+{
+  "seed": 20261125,
+  "total": {
+    "high": 145,
+    "medium": 60,
+    "low": 51
+  },
+  "dilewati": [
+    "data/besar/lebih-1mb.txt",
+    "data/biner/data.dat",
+    "data/biner/foto.png"
+  ],
+  "berkas": {
+    "data/bersih/bersih-001.md": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/bersih/bersih-002.txt": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/bersih/bersih-003.log": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/bersih/bersih-004.py": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/bersih/bersih-005.json": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/bersih/bersih-006.yaml": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/bersih/bersih-007.csv": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/bersih/bersih-008.md": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/bersih/bersih-009.txt": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/bersih/bersih-010.log": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/bersih/bersih-011.py": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/bersih/bersih-012.json": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/bersih/bersih-013.yaml": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/bersih/bersih-014.csv": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/bersih/bersih-015.md": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/bersih/bersih-016.txt": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/bersih/bersih-017.log": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/bersih/bersih-018.py": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/bersih/bersih-019.json": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/bersih/bersih-020.yaml": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/bersih/bersih-021.csv": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/bersih/bersih-022.md": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/bersih/bersih-023.txt": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/bersih/bersih-024.log": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/bersih/bersih-025.py": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/bersih/bersih-026.json": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/bersih/bersih-027.yaml": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/bersih/bersih-028.csv": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/bersih/bersih-029.md": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/bersih/bersih-030.txt": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/bersih/bersih-031.log": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/bersih/bersih-032.py": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/bersih/bersih-033.json": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/bersih/bersih-034.yaml": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/bersih/bersih-035.csv": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/bersih/bersih-036.md": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/bersih/bersih-037.txt": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/bersih/bersih-038.log": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/bersih/bersih-039.py": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/bersih/bersih-040.json": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/bersih/bersih-041.yaml": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/bersih/bersih-042.csv": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/bersih/bersih-043.md": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/bersih/bersih-044.txt": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/bersih/bersih-045.log": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/bersih/bersih-046.py": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/bersih/bersih-047.json": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/bersih/bersih-048.yaml": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/bersih/bersih-049.csv": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/bersih/bersih-050.md": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/bersih/bersih-051.txt": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/bersih/bersih-052.log": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/bersih/bersih-053.py": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/bersih/bersih-054.json": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/bersih/bersih-055.yaml": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/bersih/bersih-056.csv": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/bersih/bersih-057.md": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/bersih/bersih-058.txt": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/bersih/bersih-059.log": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/bersih/bersih-060.py": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/besar/lebih-1mb.txt": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/besar/tepat-1mb.txt": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "data/biner/data.dat": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/biner/foto.png": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/campuran/campuran-001.md": {
+      "high": 2,
+      "medium": 0,
+      "low": 2
+    },
+    "data/campuran/campuran-002.txt": {
+      "high": 4,
+      "medium": 0,
+      "low": 0
+    },
+    "data/campuran/campuran-003.log": {
+      "high": 4,
+      "medium": 2,
+      "low": 0
+    },
+    "data/campuran/campuran-004.py": {
+      "high": 2,
+      "medium": 2,
+      "low": 1
+    },
+    "data/campuran/campuran-005.json": {
+      "high": 3,
+      "medium": 2,
+      "low": 2
+    },
+    "data/campuran/campuran-006.yaml": {
+      "high": 5,
+      "medium": 3,
+      "low": 0
+    },
+    "data/campuran/campuran-007.csv": {
+      "high": 2,
+      "medium": 0,
+      "low": 1
+    },
+    "data/campuran/campuran-008.md": {
+      "high": 4,
+      "medium": 2,
+      "low": 2
+    },
+    "data/campuran/campuran-009.txt": {
+      "high": 4,
+      "medium": 0,
+      "low": 1
+    },
+    "data/campuran/campuran-010.log": {
+      "high": 3,
+      "medium": 0,
+      "low": 2
+    },
+    "data/campuran/campuran-011.py": {
+      "high": 3,
+      "medium": 2,
+      "low": 0
+    },
+    "data/campuran/campuran-012.json": {
+      "high": 4,
+      "medium": 2,
+      "low": 0
+    },
+    "data/campuran/campuran-013.yaml": {
+      "high": 1,
+      "medium": 1,
+      "low": 1
+    },
+    "data/campuran/campuran-014.csv": {
+      "high": 2,
+      "medium": 2,
+      "low": 1
+    },
+    "data/campuran/campuran-015.md": {
+      "high": 6,
+      "medium": 0,
+      "low": 0
+    },
+    "data/campuran/campuran-016.txt": {
+      "high": 0,
+      "medium": 2,
+      "low": 2
+    },
+    "data/campuran/campuran-017.log": {
+      "high": 3,
+      "medium": 4,
+      "low": 1
+    },
+    "data/campuran/campuran-018.py": {
+      "high": 4,
+      "medium": 1,
+      "low": 2
+    },
+    "data/campuran/campuran-019.json": {
+      "high": 3,
+      "medium": 1,
+      "low": 0
+    },
+    "data/campuran/campuran-020.yaml": {
+      "high": 3,
+      "medium": 1,
+      "low": 4
+    },
+    "data/nik/bentuk-lain/berpemisah-001.md": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/nik/bentuk-lain/berpemisah-002.txt": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/nik/bentuk-lain/berpemisah-003.log": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/nik/bentuk-lain/berpemisah-004.py": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/nik/bentuk-lain/berpemisah-005.json": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/nik/bentuk-lain/berpemisah-006.yaml": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/nik/bentuk-lain/berpemisah-007.csv": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/nik/bentuk-lain/berpemisah-008.md": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/nik/bentuk-lain/berpemisah-009.txt": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/nik/bentuk-lain/berpemisah-010.log": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "data/nik/high/high-001.md": {
+      "high": 3,
+      "medium": 0,
+      "low": 0
+    },
+    "data/nik/high/high-002.txt": {
+      "high": 4,
+      "medium": 0,
+      "low": 0
+    },
+    "data/nik/high/high-003.log": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "data/nik/high/high-004.py": {
+      "high": 4,
+      "medium": 0,
+      "low": 0
+    },
+    "data/nik/high/high-005.json": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "data/nik/high/high-006.yaml": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "data/nik/high/high-007.csv": {
+      "high": 4,
+      "medium": 0,
+      "low": 0
+    },
+    "data/nik/high/high-008.md": {
+      "high": 3,
+      "medium": 0,
+      "low": 0
+    },
+    "data/nik/high/high-009.txt": {
+      "high": 4,
+      "medium": 0,
+      "low": 0
+    },
+    "data/nik/high/high-010.log": {
+      "high": 5,
+      "medium": 0,
+      "low": 0
+    },
+    "data/nik/high/high-011.py": {
+      "high": 3,
+      "medium": 0,
+      "low": 0
+    },
+    "data/nik/high/high-012.json": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "data/nik/high/high-013.yaml": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "data/nik/high/high-014.csv": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "data/nik/high/high-015.md": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "data/nik/high/high-016.txt": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "data/nik/high/high-017.log": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "data/nik/high/high-018.py": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "data/nik/high/high-019.json": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "data/nik/high/high-020.yaml": {
+      "high": 4,
+      "medium": 0,
+      "low": 0
+    },
+    "data/nik/high/high-021.csv": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "data/nik/high/high-022.md": {
+      "high": 5,
+      "medium": 0,
+      "low": 0
+    },
+    "data/nik/high/high-023.txt": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "data/nik/high/high-024.log": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "data/nik/high/high-025.py": {
+      "high": 4,
+      "medium": 0,
+      "low": 0
+    },
+    "data/nik/high/high-026.json": {
+      "high": 4,
+      "medium": 0,
+      "low": 0
+    },
+    "data/nik/high/high-027.yaml": {
+      "high": 4,
+      "medium": 0,
+      "low": 0
+    },
+    "data/nik/high/high-028.csv": {
+      "high": 5,
+      "medium": 0,
+      "low": 0
+    },
+    "data/nik/high/high-029.md": {
+      "high": 3,
+      "medium": 0,
+      "low": 0
+    },
+    "data/nik/high/high-030.txt": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "data/nik/low/low-001.md": {
+      "high": 0,
+      "medium": 0,
+      "low": 2
+    },
+    "data/nik/low/low-002.txt": {
+      "high": 0,
+      "medium": 0,
+      "low": 2
+    },
+    "data/nik/low/low-003.log": {
+      "high": 0,
+      "medium": 0,
+      "low": 2
+    },
+    "data/nik/low/low-004.py": {
+      "high": 0,
+      "medium": 0,
+      "low": 1
+    },
+    "data/nik/low/low-005.json": {
+      "high": 0,
+      "medium": 0,
+      "low": 1
+    },
+    "data/nik/low/low-006.yaml": {
+      "high": 0,
+      "medium": 0,
+      "low": 2
+    },
+    "data/nik/low/low-007.csv": {
+      "high": 0,
+      "medium": 0,
+      "low": 3
+    },
+    "data/nik/low/low-008.md": {
+      "high": 0,
+      "medium": 0,
+      "low": 1
+    },
+    "data/nik/low/low-009.txt": {
+      "high": 0,
+      "medium": 0,
+      "low": 2
+    },
+    "data/nik/low/low-010.log": {
+      "high": 0,
+      "medium": 0,
+      "low": 2
+    },
+    "data/nik/low/low-011.py": {
+      "high": 0,
+      "medium": 0,
+      "low": 1
+    },
+    "data/nik/low/low-012.json": {
+      "high": 0,
+      "medium": 0,
+      "low": 3
+    },
+    "data/nik/low/low-013.yaml": {
+      "high": 0,
+      "medium": 0,
+      "low": 1
+    },
+    "data/nik/low/low-014.csv": {
+      "high": 0,
+      "medium": 0,
+      "low": 3
+    },
+    "data/nik/low/low-015.md": {
+      "high": 0,
+      "medium": 0,
+      "low": 3
+    },
+    "data/nik/medium/medium-001.md": {
+      "high": 0,
+      "medium": 3,
+      "low": 0
+    },
+    "data/nik/medium/medium-002.txt": {
+      "high": 0,
+      "medium": 3,
+      "low": 0
+    },
+    "data/nik/medium/medium-003.log": {
+      "high": 0,
+      "medium": 3,
+      "low": 0
+    },
+    "data/nik/medium/medium-004.py": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "data/nik/medium/medium-005.json": {
+      "high": 0,
+      "medium": 2,
+      "low": 0
+    },
+    "data/nik/medium/medium-006.yaml": {
+      "high": 0,
+      "medium": 3,
+      "low": 0
+    },
+    "data/nik/medium/medium-007.csv": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "data/nik/medium/medium-008.md": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "data/nik/medium/medium-009.txt": {
+      "high": 0,
+      "medium": 3,
+      "low": 0
+    },
+    "data/nik/medium/medium-010.log": {
+      "high": 0,
+      "medium": 3,
+      "low": 0
+    },
+    "data/nik/medium/medium-011.py": {
+      "high": 0,
+      "medium": 3,
+      "low": 0
+    },
+    "data/nik/medium/medium-012.json": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "data/nik/medium/medium-013.yaml": {
+      "high": 0,
+      "medium": 2,
+      "low": 0
+    },
+    "data/nik/medium/medium-014.csv": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "data/nik/medium/medium-015.md": {
+      "high": 0,
+      "medium": 3,
+      "low": 0
+    },
+    "data/non-utf8/latin1.txt": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    }
+  }
+}

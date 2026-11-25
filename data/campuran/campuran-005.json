@@ -1,0 +1,34 @@
+{
+  "catatan": [
+    "Server berjalan normal, waktu respons 120 ms.",
+    "Alamat IP internal 10.0.0.12 tidak dipublikasikan.",
+    "Alamat IP internal 10.0.0.12 tidak dipublikasikan.",
+    "Server berjalan normal, waktu respons 120 ms.",
+    "Kode pesanan ORD-20261125-0042 sudah dikirim.",
+    "Total transaksi hari ini: 1250 dari 1300 permintaan.",
+    "Server berjalan normal, waktu respons 120 ms."
+  ],
+  "pengguna": [
+    {
+      "nik": "1602205904240000"
+    },
+    {
+      "nik": "1444016608030000"
+    },
+    {
+      "nik": "1009051502150000"
+    },
+    {
+      "nik": "9146371305990000"
+    },
+    {
+      "nik": "9973165605850000"
+    },
+    {
+      "nik": "7402165206400000"
+    },
+    {
+      "nik": "6403111711360000"
+    }
+  ]
+}

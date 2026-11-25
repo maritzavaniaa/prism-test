@@ -1,0 +1,8 @@
+Laporan bulanan dibuat otomatis oleh sistem.
+Pengguna diminta memperbarui kata sandi tiap 90 hari.
+nik: 6308035101490000
+nik: 1221036010870000
+nik: 6201056610370000
+nik: 6502022311700000
+Versi aplikasi 2.4.1 dirilis pada 2026-11-25.
+Catatan: dokumen ini hanya data uji sintetis.

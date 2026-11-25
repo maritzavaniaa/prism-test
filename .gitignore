@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+
+# Dibuat saat workflow berjalan, bukan bagian repo
+.prism/
+hasil.txt

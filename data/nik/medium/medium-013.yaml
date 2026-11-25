@@ -1,0 +1,7 @@
+pengguna:
+  - ref: "9191701612370000"
+  - ref: "7131141311020000"
+catatan:
+  - Server berjalan normal, waktu respons 120 ms.
+  - Jumlah baris diproses: 48213, gagal: 0.
+  - Jumlah baris diproses: 48213, gagal: 0.

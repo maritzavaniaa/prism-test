@@ -1,0 +1,27 @@
+{
+  "catatan": [
+    "Laporan bulanan dibuat otomatis oleh sistem.",
+    "Pengguna diminta memperbarui kata sandi tiap 90 hari.",
+    "Pengguna diminta memperbarui kata sandi tiap 90 hari.",
+    "Alamat IP internal 10.0.0.12 tidak dipublikasikan.",
+    "Total transaksi hari ini: 1250 dari 1300 permintaan.",
+    "Server berjalan normal, waktu respons 120 ms.",
+    "Cadangan basis data selesai pukul 02:15 dalam 38 detik.",
+    "Total transaksi hari ini: 1250 dari 1300 permintaan.",
+    "Jumlah baris diproses: 48213, gagal: 0."
+  ],
+  "pengguna": [
+    {
+      "nik": "1410020702170000"
+    },
+    {
+      "nik": "3171062210950000"
+    },
+    {
+      "nik": "3304202508960000"
+    },
+    {
+      "nik": "3217082310470000"
+    }
+  ]
+}

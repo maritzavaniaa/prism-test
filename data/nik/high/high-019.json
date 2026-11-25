@@ -1,0 +1,17 @@
+{
+  "catatan": [
+    "Total transaksi hari ini: 1250 dari 1300 permintaan.",
+    "Kode pesanan ORD-20261125-0042 sudah dikirim.",
+    "Laporan bulanan dibuat otomatis oleh sistem.",
+    "Catatan: dokumen ini hanya data uji sintetis.",
+    "Pengguna diminta memperbarui kata sandi tiap 90 hari."
+  ],
+  "pengguna": [
+    {
+      "nik": "1112025702940000"
+    },
+    {
+      "nik": "3323175902780000"
+    }
+  ]
+}
