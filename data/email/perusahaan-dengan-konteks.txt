@@ -1,0 +1,5 @@
+email: agus.dewi@pt-abc.co.id
+email: ani.andi@example.com
+email: siti.andi@perusahaan.id
+email: ani.wati@kampus.ac.id
+email: dewi.agus@dinas.go.id

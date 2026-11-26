@@ -92,5 +92,9 @@ jobs:
           }
           cek 0 data/bersih
           cek 1 data/nik/high
+          cek 1 data/bahasa
+          cek 1 data/nama-berkas
+          cek 1 data/hp
+          cek 1 data/email
           cek 2 data/tidak-ada
           exit $gagal

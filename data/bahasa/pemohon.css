@@ -1,0 +1,4 @@
+/* gaya halaman data pemohon */
+.nik::before { content: "NIK 7308271312580000"; }
+.hp::before { content: "HP +6281465149583"; }
+.surel::before { content: "Email sri.budi@gmail.com"; }

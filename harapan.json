@@ -8,7 +8,11 @@
   "dilewati": [
     "data/besar/lebih-1mb.txt",
     "data/biner/data.dat",
-    "data/biner/foto.png"
+    "data/biner/foto.png",
+    "data/non-utf8/utf16.txt"
+  ],
+  "abaikan_hp_email": [
+    "data/nik/bentuk-lain"
   ],
   "berkas": {
     "data/bersih/bersih-001.md": {
@@ -785,6 +789,481 @@
       "high": 1,
       "medium": 0,
       "low": 0
+    },
+    "data/non-utf8/utf16.txt": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    }
+  },
+  "agregat": {
+    "data/bahasa/.env": {
+      "nik": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "hp": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "email": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    "data/bahasa/Dockerfile": {
+      "nik": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "hp": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "email": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    "data/bahasa/Makefile": {
+      "nik": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "hp": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "email": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    "data/bahasa/Pemohon.java": {
+      "nik": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "hp": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "email": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    "data/bahasa/insert-banyak-baris.sql": {
+      "nik": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "hp": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "email": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      }
+    },
+    "data/bahasa/insert-satu-baris.sql": {
+      "nik": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "hp": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "email": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      }
+    },
+    "data/bahasa/min.js": {
+      "nik": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "hp": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "email": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    "data/bahasa/pemohon.css": {
+      "nik": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "hp": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "email": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    "data/bahasa/pemohon.go": {
+      "nik": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "hp": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "email": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    "data/bahasa/pemohon.html": {
+      "nik": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "hp": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "email": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    "data/bahasa/pemohon.ini": {
+      "nik": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "hp": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "email": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    "data/bahasa/pemohon.js": {
+      "nik": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "hp": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "email": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    "data/bahasa/pemohon.php": {
+      "nik": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "hp": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "email": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    "data/bahasa/pemohon.sh": {
+      "nik": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "hp": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "email": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    "data/bahasa/pemohon.toml": {
+      "nik": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "hp": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "email": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    "data/bahasa/pemohon.ts": {
+      "nik": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "hp": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "email": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    "data/bahasa/pemohon.xml": {
+      "nik": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "hp": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "email": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    "data/email/pengecoh.txt": {
+      "email": {
+        "high": 0,
+        "medium": 0,
+        "low": 1
+      }
+    },
+    "data/email/perusahaan-dengan-konteks.txt": {
+      "email": {
+        "high": 0,
+        "medium": 0,
+        "low": 5
+      }
+    },
+    "data/email/perusahaan-tanpa-konteks.txt": {
+      "email": {
+        "high": 0,
+        "medium": 0,
+        "low": 5
+      }
+    },
+    "data/email/pribadi-dengan-konteks.txt": {
+      "email": {
+        "high": 13,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    "data/email/pribadi-tanpa-konteks.txt": {
+      "email": {
+        "high": 0,
+        "medium": 13,
+        "low": 0
+      }
+    },
+    "data/hp/dengan-konteks/344.txt": {
+      "hp": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    "data/hp/dengan-konteks/62-pemisah.txt": {
+      "hp": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    "data/hp/dengan-konteks/62-polos.txt": {
+      "hp": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    "data/hp/dengan-konteks/nol-pemisah.txt": {
+      "hp": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    "data/hp/dengan-konteks/nol.txt": {
+      "hp": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    "data/hp/dengan-konteks/pemisah-lain.txt": {
+      "hp": {
+        "high": 0,
+        "medium": 2,
+        "low": 0
+      }
+    },
+    "data/hp/dengan-konteks/plus62-344.txt": {
+      "hp": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    "data/hp/dengan-konteks/plus62.txt": {
+      "hp": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    "data/hp/dengan-konteks/polos.txt": {
+      "hp": {
+        "high": 0,
+        "medium": 2,
+        "low": 0
+      }
+    },
+    "data/hp/pengecoh/pengecoh.txt": {},
+    "data/hp/tanpa-konteks/344.txt": {
+      "hp": {
+        "high": 0,
+        "medium": 2,
+        "low": 0
+      }
+    },
+    "data/hp/tanpa-konteks/62-pemisah.txt": {
+      "hp": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    "data/hp/tanpa-konteks/62-polos.txt": {
+      "hp": {
+        "high": 0,
+        "medium": 2,
+        "low": 0
+      }
+    },
+    "data/hp/tanpa-konteks/nol-pemisah.txt": {
+      "hp": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    "data/hp/tanpa-konteks/nol.txt": {
+      "hp": {
+        "high": 0,
+        "medium": 2,
+        "low": 0
+      }
+    },
+    "data/hp/tanpa-konteks/pemisah-lain.txt": {
+      "hp": {
+        "high": 0,
+        "medium": 0,
+        "low": 2
+      }
+    },
+    "data/hp/tanpa-konteks/plus62-344.txt": {
+      "hp": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    "data/hp/tanpa-konteks/plus62.txt": {
+      "hp": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    "data/hp/tanpa-konteks/polos.txt": {
+      "hp": {
+        "high": 0,
+        "medium": 0,
+        "low": 2
+      }
+    },
+    "data/nama-berkas": {
+      "nik": {
+        "high": 2,
+        "medium": 1,
+        "low": 1
+      },
+      "hp": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "email": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      }
     }
   }
 }

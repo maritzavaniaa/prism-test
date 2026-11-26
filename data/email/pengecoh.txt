@@ -1,0 +1,5 @@
+alamat: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@gmail.com
+alamat: budi@gmail.c
+alamat: @gmail.com
+alamat: budi@gmail
+git clone git@github.com:user/repo.git

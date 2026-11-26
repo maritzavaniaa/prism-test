@@ -1,0 +1,5 @@
+Nomor 8123456 bukan ponsel.
+Nomor 08123456789012 bukan ponsel.
+Nomor 081234567890123 bukan ponsel.
+Nomor 080123456789 bukan ponsel.
+Nomor 12345678901234 bukan ponsel.
