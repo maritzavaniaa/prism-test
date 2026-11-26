@@ -11,6 +11,10 @@ memulai nomor urut dari 0001, jadi NIK berakhiran 0000 tidak mungkin milik orang
 Keluaran: folder data/ dan harapan.json (jumlah temuan per berkas per tingkat).
 Seed tetap, jadi hasilnya sama setiap dijalankan.
 
+Harapan di harapan.json adalah tingkat AKHIR menurut PRISM Langkah 8: bila kunci isian `nik`
+berada di baris yang sama, tingkat naik satu (low -> medium -> high). Kunci `ref` tidak
+menaikkan. Ambang tidak diterapkan di sini: jalankan PRISM dengan `--min-level low`.
+
 Catatan sirkularitas: kode wilayah diambil dari data PRISM sendiri, jadi NIK `high`
 pasti dikenali PRISM. Data ini untuk uji integrasi dan eksplorasi, BUKAN bukti akurasi.
 """
@@ -45,6 +49,11 @@ EKSTENSI = [".md", ".txt", ".log", ".py", ".json", ".yaml", ".csv"]
 def baca_kode(folder: Path, nama: str) -> list:
     with open(folder / nama, encoding="utf-8", newline="") as f:
         return sorted(baris["kode"].strip() for baris in csv.DictReader(f))
+
+
+def naik(tingkat: str) -> str:
+    """Konteks menaikkan satu tingkat (KF-14)."""
+    return {"low": "medium", "medium": "high", "high": "high"}[tingkat]
 
 
 class Pembuat:
@@ -184,14 +193,15 @@ class Pembuat:
             for _ in range(r.randint(3, 8)):
                 jenis = r.choice(["high", "high", "medium", "low"])
                 nilai.append(getattr(self, f"nik_{jenis}")())
-                h[jenis] += 1
+                h[naik(jenis)] += 1  # kunci selalu `nik`, jadi konteks menaikkan
             r.shuffle(nilai)
             return nilai, h, "nik"
 
         def dengan_harapan(fungsi, tingkat):
             def bungkus():
                 nilai, h, kunci = fungsi()
-                return nilai, {tingkat: len(nilai)}, kunci
+                akhir = naik(tingkat) if kunci == "nik" else tingkat
+                return nilai, {akhir: len(nilai)}, kunci
             return bungkus
 
         self.kelompok("data/bersih", "bersih", 60, bersih)

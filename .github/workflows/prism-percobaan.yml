@@ -3,6 +3,8 @@
 # PRISM diambil dari repo publik maritzavaniaa/PRISM (cabang main) ke folder .prism,
 # lalu dijalankan dengan PYTHONPATH. Tanpa pip dan tanpa token.
 #
+# pindai-semua memakai --min-level low supaya semua tingkat ikut dicocokkan dengan harapan.json.
+#
 # Hasil yang DIHARAPKAN (jadi merah pada job pertama itu normal):
 #   pindai-semua  -> MERAH  (PRISM keluar dengan kode 1: ada temuan; harapan.json cocok)
 #   pindai-bersih -> HIJAU  (data/bersih tidak berisi NIK)
@@ -34,7 +36,7 @@ jobs:
       - name: Pindai seluruh repo (harapan exit 1)
         run: |
           set +e
-          time python -m prism scan . --exclude .prism | tee hasil.txt
+          time python -m prism scan . --exclude .prism --min-level low | tee hasil.txt
           kode=${PIPESTATUS[0]}
           echo "exit code PRISM = $kode"
           exit $kode

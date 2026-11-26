@@ -57,7 +57,7 @@ sehingga NIK berakhiran `0000` tidak mungkin milik orang nyata.
 
 ```bash
 git clone https://github.com/maritzavaniaa/PRISM.git ../PRISM
-PYTHONPATH=../PRISM/src python3 -m prism scan . | tee hasil.txt
+PYTHONPATH=../PRISM/src python3 -m prism scan . --min-level low | tee hasil.txt
 python3 skrip/periksa_hasil.py hasil.txt harapan.json
 ```
 
@@ -66,5 +66,6 @@ python3 skrip/periksa_hasil.py hasil.txt harapan.json
 - Rule HP dan email sudah ada di PRISM (Langkah 7), tetapi repo ini belum punya data untuk keduanya.
   `skrip/periksa_hasil.py` sementara hanya mencocokkan rule `nik`. Temuan `hp` di `data/nik/bentuk-lain/`
   adalah kandidat palsu dari NIK berpemisah (batasan yang diterima di PRISM), bukan kesalahan data.
-- Ambang tingkat belum ada (Langkah 8), jadi PRISM masih melaporkan semua tingkat, termasuk `low`.
-  Setelah Langkah 8, `harapan.json` perlu diperbarui.
+- `harapan.json` berisi tingkat akhir setelah konteks (Langkah 8): kunci `nik` di baris yang sama menaikkan satu tingkat,
+  kunci `ref` tidak. Job `pindai-semua` memakai `--min-level low` supaya semua tingkat ikut dicocokkan.
+  Pada ambang bawaan (`medium`), temuan `low` tidak dilaporkan.

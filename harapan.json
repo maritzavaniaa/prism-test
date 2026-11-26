@@ -1,9 +1,9 @@
 {
   "seed": 20261125,
   "total": {
-    "high": 145,
-    "medium": 60,
-    "low": 51
+    "high": 179,
+    "medium": 59,
+    "low": 18
   },
   "dilewati": [
     "data/besar/lebih-1mb.txt",
@@ -333,8 +333,8 @@
     },
     "data/campuran/campuran-001.md": {
       "high": 2,
-      "medium": 0,
-      "low": 2
+      "medium": 2,
+      "low": 0
     },
     "data/campuran/campuran-002.txt": {
       "high": 4,
@@ -342,64 +342,64 @@
       "low": 0
     },
     "data/campuran/campuran-003.log": {
-      "high": 4,
-      "medium": 2,
+      "high": 6,
+      "medium": 0,
       "low": 0
     },
     "data/campuran/campuran-004.py": {
-      "high": 2,
-      "medium": 2,
-      "low": 1
+      "high": 4,
+      "medium": 1,
+      "low": 0
     },
     "data/campuran/campuran-005.json": {
-      "high": 3,
+      "high": 5,
       "medium": 2,
-      "low": 2
+      "low": 0
     },
     "data/campuran/campuran-006.yaml": {
-      "high": 5,
-      "medium": 3,
+      "high": 8,
+      "medium": 0,
       "low": 0
     },
     "data/campuran/campuran-007.csv": {
       "high": 2,
-      "medium": 0,
-      "low": 1
+      "medium": 1,
+      "low": 0
     },
     "data/campuran/campuran-008.md": {
-      "high": 4,
+      "high": 6,
       "medium": 2,
-      "low": 2
+      "low": 0
     },
     "data/campuran/campuran-009.txt": {
       "high": 4,
-      "medium": 0,
-      "low": 1
+      "medium": 1,
+      "low": 0
     },
     "data/campuran/campuran-010.log": {
       "high": 3,
-      "medium": 0,
-      "low": 2
+      "medium": 2,
+      "low": 0
     },
     "data/campuran/campuran-011.py": {
-      "high": 3,
-      "medium": 2,
+      "high": 5,
+      "medium": 0,
       "low": 0
     },
     "data/campuran/campuran-012.json": {
-      "high": 4,
-      "medium": 2,
+      "high": 6,
+      "medium": 0,
       "low": 0
     },
     "data/campuran/campuran-013.yaml": {
-      "high": 1,
+      "high": 2,
       "medium": 1,
-      "low": 1
+      "low": 0
     },
     "data/campuran/campuran-014.csv": {
-      "high": 2,
-      "medium": 2,
-      "low": 1
+      "high": 4,
+      "medium": 1,
+      "low": 0
     },
     "data/campuran/campuran-015.md": {
       "high": 6,
@@ -407,29 +407,29 @@
       "low": 0
     },
     "data/campuran/campuran-016.txt": {
-      "high": 0,
+      "high": 2,
       "medium": 2,
-      "low": 2
+      "low": 0
     },
     "data/campuran/campuran-017.log": {
-      "high": 3,
-      "medium": 4,
-      "low": 1
-    },
-    "data/campuran/campuran-018.py": {
-      "high": 4,
-      "medium": 1,
-      "low": 2
-    },
-    "data/campuran/campuran-019.json": {
-      "high": 3,
+      "high": 7,
       "medium": 1,
       "low": 0
     },
+    "data/campuran/campuran-018.py": {
+      "high": 5,
+      "medium": 2,
+      "low": 0
+    },
+    "data/campuran/campuran-019.json": {
+      "high": 4,
+      "medium": 0,
+      "low": 0
+    },
     "data/campuran/campuran-020.yaml": {
-      "high": 3,
-      "medium": 1,
-      "low": 4
+      "high": 4,
+      "medium": 4,
+      "low": 0
     },
     "data/nik/bentuk-lain/berpemisah-001.md": {
       "high": 0,
@@ -638,18 +638,18 @@
     },
     "data/nik/low/low-002.txt": {
       "high": 0,
-      "medium": 0,
-      "low": 2
+      "medium": 2,
+      "low": 0
     },
     "data/nik/low/low-003.log": {
       "high": 0,
-      "medium": 0,
-      "low": 2
+      "medium": 2,
+      "low": 0
     },
     "data/nik/low/low-004.py": {
       "high": 0,
-      "medium": 0,
-      "low": 1
+      "medium": 1,
+      "low": 0
     },
     "data/nik/low/low-005.json": {
       "high": 0,
@@ -658,8 +658,8 @@
     },
     "data/nik/low/low-006.yaml": {
       "high": 0,
-      "medium": 0,
-      "low": 2
+      "medium": 2,
+      "low": 0
     },
     "data/nik/low/low-007.csv": {
       "high": 0,
@@ -668,8 +668,8 @@
     },
     "data/nik/low/low-008.md": {
       "high": 0,
-      "medium": 0,
-      "low": 1
+      "medium": 1,
+      "low": 0
     },
     "data/nik/low/low-009.txt": {
       "high": 0,
@@ -688,8 +688,8 @@
     },
     "data/nik/low/low-012.json": {
       "high": 0,
-      "medium": 0,
-      "low": 3
+      "medium": 3,
+      "low": 0
     },
     "data/nik/low/low-013.yaml": {
       "high": 0,
@@ -727,8 +727,8 @@
       "low": 0
     },
     "data/nik/medium/medium-005.json": {
-      "high": 0,
-      "medium": 2,
+      "high": 2,
+      "medium": 0,
       "low": 0
     },
     "data/nik/medium/medium-006.yaml": {
@@ -762,8 +762,8 @@
       "low": 0
     },
     "data/nik/medium/medium-012.json": {
-      "high": 0,
-      "medium": 1,
+      "high": 1,
+      "medium": 0,
       "low": 0
     },
     "data/nik/medium/medium-013.yaml": {
@@ -772,13 +772,13 @@
       "low": 0
     },
     "data/nik/medium/medium-014.csv": {
-      "high": 0,
-      "medium": 1,
+      "high": 1,
+      "medium": 0,
       "low": 0
     },
     "data/nik/medium/medium-015.md": {
-      "high": 0,
-      "medium": 3,
+      "high": 3,
+      "medium": 0,
       "low": 0
     },
     "data/non-utf8/latin1.txt": {
