@@ -15,6 +15,7 @@ from collections import defaultdict
 
 BARIS_TEMUAN = re.compile(r"^(.+?):(\d+):(\d+)  (\w+)  (high|medium|low)  [*\d]+$")
 TINGKAT = ("high", "medium", "low")
+ATURAN_DIPERIKSA = {"nik"}
 
 
 def baca_temuan(path_keluaran: str) -> dict:
@@ -22,7 +23,9 @@ def baca_temuan(path_keluaran: str) -> dict:
     with open(path_keluaran, encoding="utf-8") as f:
         for baris in f:
             m = BARIS_TEMUAN.match(baris.rstrip("\n"))
-            if m:
+            # Hanya rule yang punya harapan. Data HP dan email belum dibuat, dan NIK berpemisah
+            # di data/nik/bentuk-lain memicu kandidat HP palsu (batasan PRISM Langkah 7).
+            if m and m.group(4) in ATURAN_DIPERIKSA:
                 hasil[os.path.normpath(m.group(1))][m.group(5)] += 1
     return hasil
 

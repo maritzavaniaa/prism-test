@@ -63,6 +63,8 @@ python3 skrip/periksa_hasil.py hasil.txt harapan.json
 
 ## Catatan
 
-- Rule HP dan email belum ada di PRISM (Langkah 7), jadi repo ini belum punya data untuk keduanya.
+- Rule HP dan email sudah ada di PRISM (Langkah 7), tetapi repo ini belum punya data untuk keduanya.
+  `skrip/periksa_hasil.py` sementara hanya mencocokkan rule `nik`. Temuan `hp` di `data/nik/bentuk-lain/`
+  adalah kandidat palsu dari NIK berpemisah (batasan yang diterima di PRISM), bukan kesalahan data.
 - Ambang tingkat belum ada (Langkah 8), jadi PRISM masih melaporkan semua tingkat, termasuk `low`.
   Setelah Langkah 8, `harapan.json` perlu diperbarui.
